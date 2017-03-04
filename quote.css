@@ -1,0 +1,16 @@
+#quotearea
+{
+}
+#quotebox
+{
+font-size: 35px;
+font-family: oswald;
+font-weight: bold;
+line-height: 100%;
+}
+#authorbox
+{
+font-size: 30px;
+margin-left: 400px;
+font-family: oswald;
+}

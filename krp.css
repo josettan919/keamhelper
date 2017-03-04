@@ -1,0 +1,130 @@
+.inputbox
+{
+text-align:center;
+font-size: 15px;
+height:18px;
+width: 70px;
+}
+#predictorbox
+{
+box-shadow: 0px 0px 15px black;
+font-size: 30px;
+padding-left: 50px;
+padding-top: 30px;
+padding-bottom: 30px;
+padding-right: 50px;
+}
+#askbox1
+{
+font-family: oswald;
+font-weight: bold;
+}
+#askbox2
+{
+    font-family:oswald;
+    font-weight:bold;
+}
+#stream
+{
+text-align:center;
+height:25px;
+width: 84px;
+}
+#stream2
+{
+text-align:center;
+height:25px;
+width: 84px;
+}
+#askbox2
+{
+font-size:25px;
+font-family: oswald;
+font-weight: bold;
+padding-left: 30px;
+padding-top: 30px;
+padding-bottom: 30px;
+padding-right: 30px;
+}
+#checkrank
+{
+border: 1px solid #eeeeab;
+font-size:20px;
+font-family:oswald;
+font-weight:bold;
+color: white;
+height:38px;
+width: 184px;
+background-color: orange;
+cursor:pointer;
+}
+#predresbox
+{
+font-family: oswald;
+font-weight: bold;
+display:none;
+}
+#collegepredbutton
+{
+border: 1px solid #eeeeab;
+font-size:20px;
+font-family:oswald;
+font-weight:bold;
+color: white;
+height:38px;
+width: 284px;
+background-color: indigo;
+position:absolute;
+left: 200px;
+cursor:pointer;
+}
+#collegepredbox
+{
+display:none;
+font-family: oswald;
+font-weight: bold;
+}
+#sub0
+{
+
+text-align:center;
+width: 80px;
+height: 20px;
+}
+#medpredbutton
+{
+border: 1px solid #eeeeab;
+font-size:20px;
+font-family:oswald;
+font-weight:bold;
+color: white;
+height:38px;
+width: 284px;
+background-color: #f0012f;
+position:absolute;
+left: 200px;
+cursor:pointer;
+}
+#adspace
+{
+    display:none;
+    position: absolute;
+left: 365px;
+top: 688px;
+}
+#better
+ {
+     -webkit-animation: myfirst 1s infinite alternate; 
+    animation: myfirst 1s infinite alternate;
+ }
+ @-webkit-keyframes myfirst {
+    0%   {box-shadow: 0px 0px 20px blue;}
+    100% {box-shadow: 0px 0px 0px white;}
+}
+
+/* Standard syntax */
+@keyframes myfirst {
+    
+    0%   {box-shadow: 0px 0px 20px blue;}
+    100% {box-shadow: 0px 0px 0px white;}
+}
