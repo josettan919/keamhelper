@@ -5693,26 +5693,7 @@ cglr[8][149][11]=70000;
 
 
 } 
-function returnfees(b)
- {
-if(b<=11)
-     {
-    return 8225;  
-     }
-   else if(b<=13)
-     {
-     return 16000;  
-     }
-   else if(b<=36)
-     {
-     return 35000;  
-     }
-   else
-     {
-     return 75000;  
-     }
-   
- }
+
 function myfunction(ch)
  {
  initialize();
@@ -5782,8 +5763,7 @@ for(i=1;i<=5;i++)
       {
       temp=small;
       document.getElementById("colg" + i).innerHTML=cnam[index]+"<br><br>";
-      fee=parseInt(returnfees(index));
-      document.getElementById("fee" + i).innerHTML="₹ "+fee;
+      document.getElementById("fee" + i).innerHTML="";
       document.getElementById("code" + i).innerHTML=code[index];
       }     
    }
@@ -5804,7 +5784,7 @@ if(c==3)
    document.getElementById("space7").innerHTML="at";
    document.getElementById("space8").innerHTML=cnam[b]; 
    document.getElementById("fees").style.display="block";
-   document.getElementById("fee").innerHTML=returnfees(b); 
+   document.getElementById("fee").innerHTML=""; 
   rank = parseInt(document.getElementById("sub0").value);
    scode = document.getElementById("stream").selectedIndex;
    cat = document.getElementById("srteam2").selectedIndex;;
@@ -5826,7 +5806,7 @@ if(c==3)
    x=document.getElementById("adspace").offsetTop;
    document.getElementById("better").style.top=x;
    document.getElementById("better").style.display="block";
-      document.getElementById("better").innerHTML="You could get<span style=\"color:purple;\"><br><b>"+cnam[ccode]+"</b></span><br>better than above<br><br><span style=\"color:teal;\">Fees to be paid<br>"+returnfees(ccode)+"</span>";
+      document.getElementById("better").innerHTML="You could get<span style=\"color:purple;\"><br><b>"+cnam[ccode]+"</b></span><br>better than above<br><br><span style=\"color:teal;\">"</span>";
       }
    
    }
@@ -5858,7 +5838,7 @@ else if(c==4)
    document.getElementById("better").style.display="block";
    x=document.getElementById("adspace").offsetTop;
    document.getElementById("better").style.top=x;
-      document.getElementById("better").innerHTML="But You could get<span style=\"color:purple;\"><br><b>"+cnam[ccode]+"</b></span><br><br><span style=\"color:teal;\">Fees to be paid<br>"+returnfees(ccode)+"</span>";
+      document.getElementById("better").innerHTML="But You could get<span style=\"color:purple;\"><br><b>"+cnam[ccode]+"</b></span><br><br><span style=\"color:teal;\">"</span>";
       }
    
   
