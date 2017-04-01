@@ -5826,7 +5826,7 @@ if(c==3)
    x=document.getElementById("adspace").offsetTop;
    document.getElementById("better").style.top=x;
    document.getElementById("better").style.display="block";
-      document.getElementById("better").innerHTML="You could get<span style=\"color:purple;\"><br><b>"+cnam[ccode]+"</b></span><br>better than above<br><br><span style=\"color:teal;\">Fees to be paid<br>"+returnfees(ccode)+"</span>";
+      document.getElementById("better").innerHTML="You could get<span style=\"color:purple;\"><br><b>"+cnam[ccode]+"</b></span><br>better than above<br>";
       }
    
    }
