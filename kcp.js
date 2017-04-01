@@ -5838,7 +5838,7 @@ else if(c==4)
    document.getElementById("better").style.display="block";
    x=document.getElementById("adspace").offsetTop;
    document.getElementById("better").style.top=x;
-      document.getElementById("better").innerHTML="But You could get<span style=\"color:purple;\"><br><b>"+cnam[ccode]+"</b></span><br><br><span style=\"color:teal;\">"</span>";
+      document.getElementById("better").innerHTML="But You could get<span style=\"color:purple;\"><br><b>"+cnam[ccode]+"</b></span><br><br><span style=\"color:teal;\">";
       }
    
   
