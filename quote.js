@@ -3,20 +3,20 @@ var authors=new Array(7);
 quoteaction();
 function quoteinitialize()
 {
-quotes[0]="The good times of today, are the bad thoughts of tomorrow";
-authors[0]="Bob Marley";
-quotes[1]="Despite everything, I believe that people are really good at heart";
-authors[1]="Anne Frank";
-quotes[2]="There is nothing good or bad but thinking makes it so";
-authors[2]="William Shakespeare";
-quotes[3]="Good judgment comes from experience, and a lot of that comes from bad judgment";
-authors[3]="Will Rogers";
-quotes[4]="Inorder to succeed we must believe that we can";
-authors[4]="Nicos Kazantkatis";
-quotes[5]="You have to dream before your dreams can come true";
-authors[5]="APJ Abdul Kalam";
-quotes[6]="The secret of getting ahead is getting started";
-authors[6]="Mark Twain";
+quotes[0]="With the new day comes new strength and new thoughts";
+authors[0]="Eleanor Roosevelt";
+quotes[1]="You Learn More From Failure Than From Success. Don’t Let It Stop You. Failure Builds Character";
+authors[1]="Anonymous";
+quotes[2]="It’s Not Whether You Get Knocked Down, It’s Whether You Get Up";
+authors[2]="Vince Lombardi";
+quotes[3]="Imagine Your Life Is Perfect In Every Respect; What Would It Look Like?";
+authors[3]="Brian Tracy";
+quotes[4]="Creativity Is Intelligence Having Fun";
+authors[4]="Albert Einstein";
+quotes[5]="Develop An ‘Attitude Of Gratitude’. Say Thank You To Everyone You Meet For Everything They Do For You";
+authors[5]="Brian Tracy";
+quotes[6]="Today’s Accomplishments Were Yesterday’s Impossibilities";
+authors[6]="Robert H. Schuller";
 }
 function quoteaction()
 {
