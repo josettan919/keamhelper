@@ -48,26 +48,18 @@ function values()
  samrank[1]=1;sammark[1]=585;
  samrank[2]=5;sammark[2]=576;
  samrank[3]=15;sammark[3]=569;
- samrank[4]=95;sammark[4]=553;
- samrank[5]=854;sammark[5]=491;
- samrank[6]=3297;sammark[6]=436;
- samrank[7]=5610;sammark[7]=414;
- samrank[8]=51;sammark[8]=559;
- samrank[9]=33;sammark[9]=561;
- samrank[10]=123;sammark[10]=543;
- samrank[11]=157;sammark[11]=536;
- samrank[12]=175;sammark[12]=535;
- samrank[13]=19064;sammark[13]=334;
- samrank[14]=9031;sammark[14]=379;
- samrank[15]=58297;sammark[15]=216;
- samrank[16]=10289;sammark[16]=370;
- samrank[17]=41804;sammark[17]=270;
- samrank[18]=48014;sammark[18]=250;
- samrank[19]=20308;sammark[19]=328;
- samrank[20]=22969;sammark[20]=321;
- samrank[21]=26668;sammark[21]=308;
- samrank[22]=64000;sammark[22]=176;
- samrank[23]=78000;sammark[23]=116;
+ samrank[4]=58;sammark[4]=556.72;
+ samrank[5]=750;sammark[5]=509.61;
+ samrank[6]=1680;sammark[6]=400.54;
+ samrank[7]=4303;samrank[7]=364.35;
+ samrank[8]=7195;sammark[8]=342.42;
+ samrank[9]=14821;sammark[9]=309.69;
+ samrank[10]=19430;sammark[10]=291.13;
+ samrank[11]=25789;sammark[11]=273.28;
+ samrank[12]=30545;sammark[12]=255.17;
+ samrank[13]=36200;sammark[13]=239;
+ samrank[14]=42854;sammark[14]=174.9;
+ samrank[15]=46686;sammark[15]=166;
  }
 function predictrank()
 {
