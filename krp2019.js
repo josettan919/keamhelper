@@ -93,8 +93,8 @@ km=Math.round(km*100)/100;
 document.getElementById("score").innerHTML=km;
 var rank;
 var mid=0;
-var mxid=23;
-for(i=0;i<24;i++)
+var mxid=15;
+for(i=0;i<16;i++)
   {
   if(sammark[i]>=km && sammark[mid]>sammark[i])
       mid=i;
